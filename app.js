@@ -9,7 +9,7 @@ import { routerTarefa } from './rotas/tarefas.js'
 import { database } from './database.js'
 
 const app = express()
-app.use(cors({ origin: 'https://gestao-puce.vercel.app/' }))
+app.use(cors({ origin: 'https://gestao-puce.vercel.app' }))
 
 app.use(express.json())
 app.use(router)
